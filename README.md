@@ -1,6 +1,4 @@
-# Larvata Code Style
-
----
+# Larvata Coding Style
 
 ## PHP
 
@@ -14,8 +12,6 @@
 
 ## HTML
 
----
-
 ## Rails
 
 ## Yii 2
@@ -24,10 +20,19 @@
 
 ---
 
-# Naming
+# Naming Convention
 
 ## Project
 
 ## Files
 
 ## PhotoShop Layer
+
+---
+
+# References
+
+* Issue #201
+* http://mmdays.com/2007/04/24/coding-style/
+* http://sideeffect.kr/popularconvention/
+* http://editorconfig.org/
