@@ -31,6 +31,19 @@
 ---
 # application structure guide
 
+## project file generate sequence
+
+1. follow function list name, translate all to english first
+2. decide and name all controller
+3. fill in all actions in controller
+4. check ajax call actions
+5. generate blank all related view files
+6. check partial view needs, generate more partial for action pages
+7. decide page class name
+8. decide big or reuseable component class name
+9. make css file and partial files
+10. generate page related js files
+
 ## html(view)
 
 main frame file:
