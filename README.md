@@ -10,6 +10,27 @@
 
 ## CSS / SCSS / Compass
 
+### class,id nameing
+
+純上色用途命名使用底線串接:
+> index_page
+
+js用途使用中線加上prefix:
+> js-good-btn
+
+id使用中線:
+> main-menu
+
+預設組件使用中線:
+> w-100, t-center
+
+預設組件 hack 使用中線放置於組件後，rwd hack前
+> btn-blue-news-xs
+
+rwd hack 使用中線放置於最後:
+> index_page-xs
+
+
 ## HTML
 
 ## Rails
