@@ -1,4 +1,39 @@
+# Larvata Naming Convention
+
+Larvata 的命名原則，範圍包括：專案、目錄、檔案、應用程式內部設定等。
+
+## Project 專案
+
+專案命名的應用範圍包括：Redmine、Bitbucekt、Github 等。
+
+1. 絕對不能以數字作為名稱開頭。
+2. 名稱保持全小寫英文 (a-z)、連接線 (-)、數字 (0-9)
+3. 格式為：客戶名稱-年份 (YYYY)-程式名字
+
+- 範例：larvata-2016-my-awesome-app
+
+## Files 檔案與目錄
+
+1. 盡量不以數字作為檔案名或目錄名開頭。
+2. 名稱保持全小寫英文 (a-z)、底線 (_)、數字 (0-9)
+3. 格式為：xxx\_0123456789
+
+- 範例：avatar_20161120.png，avatars\_2016/
+
+## Axure 頁面
+
+## PhotoShop 圖層
+
+---
+
 # Larvata Coding Style
+
+Larvata 程式碼風格規範，Larvata 內部對各種程式語言的編寫規範。   
+其應用原則有以下幾條，原則的權重以排序越後越重。
+
+1. 遵循該程式語言的社群標準。
+2. 若使用的 Framework 另有其規範，則以該規範為準。
+3. 自行訂立的風格規範。
 
 ## PHP
 
@@ -10,9 +45,9 @@
 
 ## CSS / SCSS / Compass
 
-### class,id nameing
+### Class 與 ID 命名原則
 
-純上色用途命名使用底線串接:
+純上色用途命名使用底線串接：
 > index_page
 
 js用途使用中線加上prefix:
@@ -30,7 +65,6 @@ id使用中線:
 rwd hack 使用中線放置於最後:
 > index_page-xs
 
-
 ## HTML
 
 ## Rails
@@ -41,16 +75,7 @@ rwd hack 使用中線放置於最後:
 
 ---
 
-# Naming Convention
-
-## Project
-
-## Files
-
-## PhotoShop Layer
-
----
-# application structure guide
+# 專案目錄結構與檔案放置原則
 
 ## project file generate sequence
 
@@ -65,7 +90,7 @@ rwd hack 使用中線放置於最後:
 9. make css file and partial files
 10. generate page related js files
 
-## html(view)
+## HTML
 
 main frame file:
 
@@ -87,10 +112,10 @@ partial page file
 - controller/newsController/indexAction?tab=all -> view/news/_index_all.php
 - controller/newsController/indexAction?tab=past -> view/news/_index_past.php
 
-## css
+## CSS
 
 
-## javascript
+## JavaScript
 
 site scope js file:
 > put in one or two general js file
