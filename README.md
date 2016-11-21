@@ -35,15 +35,34 @@ Larvata 程式碼風格規範，Larvata 內部對各種程式語言的編寫規�
 2. 若使用的 Framework 另有其規範，則以該規範為準。
 3. 自行訂立的風格規範。
 
+所有人員都應該安裝 [EditorConfig](http://editorconfig.org/) 作為編輯器風格控制器： 
+[EditorConfig 外掛下載](http://editorconfig.org/#download)  
+並使用 Larvata 的 [EditorConfig 設定檔](http://#)。
+
 ## PHP
+
+1. __所有 *.php 檔案以 4 個空白為縮排。__
+2. 
 
 ## Ruby
 
+1. __所有 *.rb 檔案以 2 個空白為縮排。__
+2. 
+
 ## Python
+
+1. __所有 *.py 檔案以 2 個空白為縮排。__
+2. 
 
 ## JavaScript
 
+1. __所有 *.js 檔案以 4 個空白為縮排。__
+2. 
+
 ## CSS / SCSS / Compass
+
+1. __所有 \*.css，\*.scss 檔案以 4 個空白為縮排。__
+2. 
 
 ### Class 與 ID 命名原則
 
@@ -67,11 +86,8 @@ rwd hack 使用中線放置於最後:
 
 ## HTML
 
-## Rails
-
-## Yii 2
-
-## CodeIgniter
+1. __所有 *.html 檔案以 4 個空白為縮排。__
+2. 
 
 ---
 
@@ -137,4 +153,3 @@ page scope js file:
 * Issue #201
 * http://mmdays.com/2007/04/24/coding-style/
 * http://sideeffect.kr/popularconvention/
-* http://editorconfig.org/
