@@ -37,7 +37,7 @@ Larvata 程式碼風格規範，Larvata 內部對各種程式語言的編寫規�
 
 所有人員都應該安裝 [EditorConfig](http://editorconfig.org/) 作為編輯器風格控制器： 
 [EditorConfig 外掛下載](http://editorconfig.org/#download)  
-並使用 Larvata 的 [EditorConfig 設定檔](http://#)。
+並使用 Larvata 的 [EditorConfig 設定檔](https://raw.githubusercontent.com/LarvataTW/coding-style/master/editorconfig)，下載另存到：`~/.editorconfig`。
 
 ## PHP
 
