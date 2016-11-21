@@ -56,6 +56,11 @@ Larvata 程式碼風格規範，Larvata 內部對各種程式語言的編寫規�
 1. __所有 *.py 檔案以 2 個空白為縮排。__
 2. 
 
+## HTML
+
+1. __所有 *.html 檔案以 4 個空白為縮排。__
+2. 
+
 ## JavaScript
 
 1. __所有 *.js 檔案以 4 個空白為縮排。__
@@ -81,11 +86,6 @@ JS 用途，使用全小寫英文與中線連接，並加上前綴 `js-`，例�
 
 使用全小寫英文與中線連接，例如:
 > `my-only-one-div`
-
-## HTML
-
-1. __所有 *.html 檔案以 4 個空白為縮排。__
-2. 
 
 ---
 
@@ -148,6 +148,5 @@ page scope js file:
 
 # References
 
-* Issue #201
-* http://mmdays.com/2007/04/24/coding-style/
-* http://sideeffect.kr/popularconvention/
+* [http://mmdays.com/2007/04/24/coding-style/](http://mmdays.com/2007/04/24/coding-style/)
+* [http://sideeffect.kr/popularconvention/](http://sideeffect.kr/popularconvention/)
