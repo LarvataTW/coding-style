@@ -22,9 +22,12 @@ Larvata 的命名原則，範圍包括：專案、目錄、檔案、應用程式
 
 - 範例：larvata_logo.png，backup2016/
 
-## Axure 頁面
+## Axure
 
-## PhotoShop 圖層
+1. 關閉自動更新。
+2. 禁止手動更新。
+
+## PhotoShop
 
 ---
 
