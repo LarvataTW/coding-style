@@ -50,11 +50,12 @@ Larvata 的命名原則，範圍包括：專案、目錄、檔案、應用程式
 # Larvata Coding Style
 
 Larvata 程式碼風格規範，Larvata 內部對各種程式語言的編寫規範。   
-其應用原則有以下幾條，原則的權重以排序越後越重。
+其應用原則有以下幾條：
 
 1. 遵循該程式語言的社群標準。
 2. 若使用的 Framework 另有其規範，則以該規範為準。
 3. 自行訂立的風格規範。
+4. __原則的權重以排序越後的越重 (後者覆蓋前者)__。
 
 所有人員都應該安裝 [EditorConfig](http://editorconfig.org/) 作為編輯器風格控制器： 
 [EditorConfig 外掛下載](http://editorconfig.org/#download)  
@@ -62,40 +63,32 @@ Larvata 程式碼風格規範，Larvata 內部對各種程式語言的編寫規�
 
 ## PHP
 
+1. 以 [PSR-2](http://www.php-fig.org/psr/psr-2/) 規範為基礎。
 1. __所有 *.php 檔案以 4 個空白為縮排。__
-2. 
-
-## Ruby
-
-1. __所有 *.rb 檔案以 2 個空白為縮排。__
-2. 
 
 ## Python
 
-1. __所有 *.py 檔案以 2 個空白為縮排。__
-2. 
+1. 以 [PEP-0008](https://www.python.org/dev/peps/pep-0008/) 規範為基礎。
+2. __所有 *.py 檔案以 2 個空白為縮排。__ 
+
+## Ruby
+
+0. <del>以 [Airbnb Ruby](https://github.com/airbnb/ruby) 規範為基礎。</del>
+1. 以 [Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide) 規範為基礎。
+2. Rails 則以 [Rails Style Guide](https://github.com/bbatsov/rails-style-guide) 規範為基礎。
+3. __所有 *.rb 檔案以 2 個空白為縮排。__
 
 ## HTML
 
-1. __所有 *.html 檔案以 4 個空白為縮排。__
-2. 
-
-## JavaScript
-
-1. __所有 *.js 檔案以 4 個空白為縮排。__
-2. 
-
-## CSS / SCSS / Compass
-
-1. __所有 \*.css，\*.scss 檔案以 4 個空白為縮排。__
-2. 
+1. 以 [http://codeguide.co](http://codeguide.bootcss.com/) 規範為基礎。
+2. __所有 *.html 檔案以 4 個空白為縮排。__
 
 ### Class 命名原則
 
-樣式用途，使用全小寫英文與底線連接，例如：   
+CSS 樣式用途，使用全小寫英文與底線連接，例如：   
 > `red_text`
 
-Hack 用途，使用全小寫英文與底線連接，並加上說明描述與後綴：`-hack`，例如：
+Hack 調整用途，使用全小寫英文與底線連接，並加上說明描述與後綴：`-hack`，例如：
 > `red_text_xs-hack`
 
 JS 用途，使用全小寫英文與中線連接，並加上前綴 `js-`，例如：   
@@ -105,6 +98,17 @@ JS 用途，使用全小寫英文與中線連接，並加上前綴 `js-`，例�
 
 使用全小寫英文與中線連接，例如:
 > `my-only-one-div`
+
+## JavaScript
+
+1. <del>以 [Airbnb JavaScript](https://github.com/airbnb/javascript) 規範為基礎。</del>
+2. 以 [StandardJS](http://standardjs.com/) 規範為基礎。
+3. __所有 *.js 檔案以 4 個空白為縮排。__
+
+## CSS / SCSS
+
+1. 以 [Airbnb CSS](https://github.com/airbnb/css) 規範為基礎。
+2. __所有 \*.css，\*.scss 檔案以 4 個空白為縮排。__ 
 
 ---
 
