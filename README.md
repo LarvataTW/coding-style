@@ -118,6 +118,7 @@ JS 用途，使用全小寫英文與中線連接，並加上前綴 `js-`，例�
 1. <del>以 [Airbnb JavaScript](https://github.com/airbnb/javascript) 規範為基礎。</del>
 2. 以 [StandardJS](http://standardjs.com/) 規範為基礎。
 3. __所有 *.js 檔案以 4 個空白為縮排。__
+4. 寫於view內的js應該都置於page的最外層，include檔案內勿撰寫獨立inline js, 共用partial view檔的js應獨立拆出成為共用檔案
 
 ## CSS / SCSS
 
@@ -145,8 +146,8 @@ JS 用途，使用全小寫英文與中線連接，並加上前綴 `js-`，例�
 
 main frame file:
 
-- rails: application
-- yii2: main.php
+- rails: /app/views/latouts/application.html.erb
+- yii2: /views/layouts/main.php
 
 page file:
 > follow controller name and action name(use yii2 as sample)
