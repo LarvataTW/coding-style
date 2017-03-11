@@ -188,3 +188,4 @@ page scope js file:
 
 * [http://mmdays.com/2007/04/24/coding-style/](http://mmdays.com/2007/04/24/coding-style/)
 * [http://sideeffect.kr/popularconvention/](http://sideeffect.kr/popularconvention/)
+* [https://github.com/showcases/clean-code-linters](https://github.com/showcases/clean-code-linters)
