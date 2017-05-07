@@ -29,6 +29,13 @@ Larvata 的命名原則，範圍包括：專案、目錄、檔案、應用程式
 3. 重構的 branch 一律以 `refactor_` 為前綴開頭
 4. __嚴格遵守 git-flow 流程__
 
+* git-flow 分：git-flow, git-flow-avh 目前公司內部還沒有定論 ...
+
+### Git 全域設定
+
+1. git config --global core.autocrlf true
+2. git config --global core.filemode true
+
 ## MySQL
 
 1. 資料庫、資料表、欄位名稱使用全小寫英文 (a-z)、底線 (_)、數字 (0-9)
