@@ -83,9 +83,9 @@ Larvata 程式碼風格規範，Larvata 內部對各種程式語言的編寫規�
 
 ## Ruby
 
-0. <del>以 [Airbnb Ruby](https://github.com/airbnb/ruby) 規範為基礎。</del>
 1. 以 [Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide) 規範為基礎。
-2. __所有 *.rb 檔案以 2 個空白為縮排。__
+2. 以 [RuboCop](https://github.com/bbatsov/rubocop) 作為語法檢查工具。
+3. __所有 *.rb 檔案以 2 個空白為縮排。__
 
 ## Rails
 
