@@ -1,6 +1,11 @@
-# JS 前端行為參考手冊
+## JavaScript
 
-## 按鈕行為
+1. <del>以 [Airbnb JavaScript](https://github.com/airbnb/javascript) 規範為基礎。</del>
+2. 以 [StandardJS](http://standardjs.com/) 規範為基礎。
+3. __所有 *.js 檔案以 4 個空白為縮排。__
+4. 寫於view內的js應該都置於page的最外層，include檔案內勿撰寫獨立inline js, 共用partial view檔的js應獨立拆出成為共用檔案
+
+### 按鈕行為
 
 當按鈕被使用者click時，需要依照觸發後的行為做相對應的處置
 
@@ -35,3 +40,16 @@ $(btn).click(function(){
   $(modal-body).removeClass('js-lock')//最後解除所有可以按的畫面與按鈕的lock,使用者可正常操作modal內容
 });
 ```
+
+site scope js file:
+> put in one or two general js file
+
+- application.js
+- common.js
+- init.js
+
+page scope js file:
+> follow controller/action_part role
+
+- controller/newsController/indexAction -> js/news/index.js
+- controller/newsController/indexAction?tab=all -> js/news/index_all.js
