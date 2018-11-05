@@ -7,12 +7,7 @@
 
 * git-flow 分：git-flow, git-flow-avh 目前公司內部還沒有定論 ...
 
-### Git 全域設定
-
-0. git config --global core.autocrlf true
-0. git config --global core.filemode true
-
-### Branch 命名原則
+### Git Branch 命名原則
 
 #### 使用 scoped-branch-name 樣式
 

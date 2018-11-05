@@ -1,0 +1,22 @@
+[core]
+  excludesfile = ~/.gitignore
+  quotepath = false
+  filemode = true
+  autocrlf = true
+
+[color]
+  ui = true
+
+[status]
+  showUntrackedFiles = all
+
+[push]
+  default = matching
+  followTags = true
+
+[pull]
+  default = matching
+  followTags = true
+
+[merge]
+  ff = only
