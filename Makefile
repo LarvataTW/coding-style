@@ -1,3 +1,6 @@
+update:
+	@cat */README.md >| README.md
+
 js:
 	@echo 'setup for Javascript'
 
