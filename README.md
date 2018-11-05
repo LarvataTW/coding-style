@@ -71,12 +71,7 @@ Larvata 的命名原則，範圍包括：專案、目錄、檔案、應用程式
 
 * git-flow 分：git-flow, git-flow-avh 目前公司內部還沒有定論 ...
 
-### Git 全域設定
-
-0. git config --global core.autocrlf true
-0. git config --global core.filemode true
-
-### Branch 命名原則
+### Git Branch 命名原則
 
 #### 使用 scoped-branch-name 樣式
 
@@ -150,7 +145,7 @@ Larvata 程式碼風格規範，Larvata 內部對各種程式語言的編寫規�
 [EditorConfig 外掛下載](http://editorconfig.org/#download)  
 並使用 Larvata 的 [EditorConfig 設定檔](https://raw.githubusercontent.com/LarvataTW/coding-style/master/editorconfig)，下載另存到：`~/.editorconfig`。
 
-## References
+### References
 
 * [http://mmdays.com/2007/04/24/coding-style/](http://mmdays.com/2007/04/24/coding-style/)
 * [http://sideeffect.kr/popularconvention/](http://sideeffect.kr/popularconvention/)
