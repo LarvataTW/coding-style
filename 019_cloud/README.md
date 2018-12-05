@@ -1,6 +1,6 @@
 ## Cloud
 
-###Azure
+### Azure
 
 1. 皆採用小駝峰式命名法(lower camel case)
 2. Resource groups命名規則,類型+環境(-商戶)
