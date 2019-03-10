@@ -4,23 +4,23 @@ Larvata 的命名原則，範圍包括：專案、目錄、檔案、應用程式
 
 ## Project 專案
 
-專案命名的應用範圍包括：Redmine、Bitbucekt、Github 等。
+專案命名的應用範圍包括：Redmine、Bitbucket、Gitlab、Github 等。
 
 1. 絕對不以數字作為名稱開頭。
 2. 名稱保持全小寫英文 (a-z)、連接線 (-)、數字 (0-9)。
-3. 格式為：客戶名稱-年份 (YYYY)-程式名字。
+3. 格式為：客戶-年份-代碼，其中年份可省略。
 4. __禁止使用空白字元。__
 
-- 範例：larvata-2016-my-awesome-app
+- 範例：larvata-awesome-app、client-2018-good-project
 
 ## Files 檔案與目錄
 
 1. 盡量不以數字作為檔案名或目錄名開頭。
-2. 名稱保持全小寫英文 (a-z)、底線 (_)、數字 (0-9)。
+2. 名稱保持中文、英文、底線 (_)、數字 (0-9)。
 3. 英文單詞之間用底線 (_) 連接，英文與數字之間不強制是否有連接底線。
 4. __禁止使用空白字元。__
 
-- 範例：larvata_logo.png，backup2016/
+- 範例：larvata_logo.png、backup2016/、客戶_合約書.doc、客戶_報價單.doc
 
 ## 專案目錄結構與檔案放置原則
 
@@ -37,51 +37,37 @@ Larvata 的命名原則，範圍包括：專案、目錄、檔案、應用程式
 
 ## Axure
 
-1. 關閉自動更新版本。
-2. 禁止手動更新版本。
+0. 關閉自動更新版本。
+0. 禁止手動更新版本。
 
 ## PhotoShop
 
-1. 檔案命名 ...?
-2. 圖層命名 ...?
+0. 檔案命名 ...?
+0. 圖層命名 ...?
 
 ## Docker
 
-1. Image 與 Container 命名使用全小寫英文 (a-z)、底線 (-)、數字 (0-9)
-2. 英文單詞之間用底線 (_) 連接，英文與數字之間不強制是否有連接底線。
-3. __禁止使用空白字元。__
+0. Image 與 Container 命名使用全小寫英文 (a-z)、底線 (-)、數字 (0-9)
+0. 英文單詞之間用底線 (_) 連接，英文與數字之間不強制是否有連接底線。
+0. __禁止使用空白字元。__
 
 - 範例：larvata\_mysql，larvata\_nginx
 
 ## MySQL
 
-1. 資料庫、資料表、欄位名稱使用全小寫英文 (a-z)、底線 (_)、數字 (0-9)
-2. 英文單詞之間用底線 (_) 連接。
-3. 英文與數字之間直接連接。
-4. __禁止使用空白字元。__
+0. 資料庫、資料表、欄位名稱使用全小寫英文 (a-z)、底線 (_)、數字 (0-9)
+0. 英文單詞之間用底線 (_) 連接。
+0. 英文與數字之間直接連接。
+0. __禁止使用空白字元。__
 
 - 範例：larvata\_database，users，first\_name
 
-## Cloud
-
-### Azure
-
-1. 皆採用小駝峰式命名法(lower camel case)
-2. Resource groups命名規則,類型+環境(-商戶)
-    - 範例:sportServiceStaging、sportDevopsStaging-larvata
-3. 服務命名規則,應用+序號+環境(-商戶)(-子元件)
-    - 範例:ap1Staging、rproxy2Staging-larvata-disk2
-4. Virtual Network命名規則,同Resource groups name(序號)
-    - 範例:sportServiceStaging、sportServiceStaging-larvata
-5. __禁止使用空白字元__
-6. __序號起始為1__
-
 ## Git
 
-1. 依照專案類型建立適當的 .gitignore。
-2. Branch 名稱保持全小寫英文 (a-z)、減號 (-)、數字 (0-9)。
-3. Branch 名稱的英文單詞使用減號 (-) 連接。
-4. __嚴格遵守 git-flow 流程。__
+0. 依照專案類型建立適當的 .gitignore。
+0. Branch 名稱保持全小寫英文 (a-z)、減號 (-)、數字 (0-9)。
+0. Branch 名稱的英文單詞使用減號 (-) 連接。
+0. __嚴格遵守 git-flow 流程。__
 
 * git-flow 分：git-flow, git-flow-avh 目前公司內部還沒有定論 ...
 
@@ -292,3 +278,16 @@ page scope js file:
 1. 以 [raywenderlich.com](https://github.com/raywenderlich/swift-style-guide) 規範為基礎。
 2. __所有 *.swift 檔案以 2 個空白為縮排。__
 
+## Cloud
+
+### Azure
+
+1. 皆採用小駝峰式命名法 (lowerCamelCase)
+2. Resource groups 命名規則：類型+環境(-商戶)
+    - 範例：sportServiceStaging、sportDevopsStaging-larvata
+3. 服務命名規則：應用+序號+環境(-商戶)(-子元件)
+    - 範例：ap1Staging、rproxy2Staging-larvata-disk2
+4. Virtual Network 命名規則同 Resource groups (序號)
+    - 範例：sportServiceStaging、sportServiceStaging-larvata
+5. __禁止使用空白字元__
+6. __序號起始為 1__
