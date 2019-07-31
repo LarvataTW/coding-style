@@ -1,6 +1,6 @@
 ## Ruby
 
-1. 以 [Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide) 規範為基礎。
+1. 以 [Ruby Style Guide](https://rubystyle.guide) 規範為基礎。
 2. 以 [RuboCop](https://github.com/bbatsov/rubocop) 作為語法檢查工具。
 3. __所有 *.rb 檔案以 2 個空白為縮排。__
 
