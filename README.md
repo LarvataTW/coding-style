@@ -264,7 +264,7 @@ page scope js file:
 
 ## Ruby
 
-1. 以 [Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide) 規範為基礎。
+1. 以 [Ruby Style Guide](https://rubystyle.guide) 規範為基礎。
 2. 以 [RuboCop](https://github.com/bbatsov/rubocop) 作為語法檢查工具。
 3. __所有 *.rb 檔案以 2 個空白為縮排。__
 
@@ -287,7 +287,7 @@ page scope js file:
     - 範例：sportServiceStaging、sportDevopsStaging-larvata
 3. 服務命名規則：應用+序號+環境(-商戶)(-子元件)
     - 範例：ap1Staging、rproxy2Staging-larvata-disk2
-4. Virtual Network 命名規則同 Resource groups (序號)
-    - 範例：sportServiceStaging、sportServiceStaging-larvata
+4. Virtual Network 命名規則類似 Resource groups，但是以 vnet 作為前綴
+    - 範例：vnetSportServiceStaging、vnetSportServiceStaging-larvata
 5. __禁止使用空白字元__
 6. __序號起始為 1__
